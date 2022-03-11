@@ -23,27 +23,6 @@ code {
   --speed: 500ms;
 }
 
-.main {
-  display: flex;
-}
-
-.main > *:nth-child(1) {
-  flex: 1 1 30%;
-}
-.main > *:nth-child(2) {
-  flex: 1 1 30%;
-  min-width: 50ch;
-}
-.main > *:nth-child(3) {
-  flex: 1 1 30%;
-}
-
-@media only screen and (max-width: 600px) {
-  .main {
-    display: none;
-  }
-}
-
 .cardstop {
   display:flex;
   color: var(--text-color);
